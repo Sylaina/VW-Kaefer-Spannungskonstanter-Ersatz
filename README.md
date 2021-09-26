@@ -11,6 +11,8 @@ Die hier vorgestellte Schaltung ersetzt den originalen Spannungskonstanter und p
 
 Die Schaltung misst mit einem Mikrocontroller (AVR ATtiny85) den Widerstand des Potis vom Tankgeber und wandelt diesen Widerstand in einen proportionalen Strom für die Tankanzeige um.
 
+Als Zusatz kann man eine LED oder ähnliches verbauen um das Erreichen der Reservefüllung zu visualisieren.
+
 # Wie installiert man die Schaltung
 
 Man entfernt den alten Spannungskonstanter und baut die Schaltung an der Stelle ein, in der auch der Spannungskonstanter eingebaut war. Dann muss nur noch das Instrument, die Schaltung und der Tankgeber angeschlossen werden und schon sollte alles funktionieren. Das Programm für den Mikrocontroller sowie die Gerberfiles für die Platine findet ihr in diesem github.
